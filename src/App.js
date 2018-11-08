@@ -61,17 +61,17 @@ class App extends Component {
   render() {
     const { appearHome, currentWatch, nextWatch, previousWatch } = this.state;
 
-    return (
+    return ( <CSSTransition
+      in={appearHome}
+      appear={true}
+      timeout={1500}
+      classNames="fade"
+    >
       <div className="App">
 
-        <CSSTransition
-          in={appearHome}
-          appear={true}
-          timeout={1500}
-          classNames="fade"
-        >
+
           <div className="row">
-            <div className="WatchCloset col-lg-12 col-md-12 col-sm-12 col-xs-12">
+            <div className="watchCloset col-lg-12 col-md-12 col-sm-12 col-xs-12">
               <div className="imgPrev">
                 <Images watch={previousWatch} />
               </div>
@@ -83,10 +83,9 @@ class App extends Component {
               </div>
             </div>
           </div>
-        </CSSTransition>
-
+        
         <div className="row">
-          <div className="Scrollers col-lg-12 col-md-12 col-sm-12 col-xs-12">
+          <div className="scrollers col-lg-12 col-md-12 col-sm-12 col-xs-12">
 
             <button onClick={this.prevWatch} >
               <img src={prevArrow} alt="Previous" className="Arrow" />
@@ -100,6 +99,9 @@ class App extends Component {
         </div>
 
       </div>
+
+      </CSSTransition>
+
     );
   }
 }
