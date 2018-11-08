@@ -59,7 +59,7 @@ class App extends Component {
   }
 
   render() {
-    const { appearHome, currentWatch, nextWatch, previousWatch, currentWatchIndex } = this.state;
+    const { appearHome, currentWatch, nextWatch, previousWatch } = this.state;
 
     return (
       <div className="App">
