@@ -61,7 +61,7 @@ button:focus, button:active {
 }
 
 .imgCurr img {
-  height: 80vmin;
+  height: 60vmin;
 }
 
 .imgCurr .singleWatch .details {
@@ -139,7 +139,7 @@ opacity: 0;
   }
 
   .imgCurr img {
-    height: 60vmin;
+    height: 50vmin;
   }
   
   button {
