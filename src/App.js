@@ -82,9 +82,7 @@ class App extends Component {
                 <Images watch={nextWatch} />
               </div>
             </div>
-          </div>
-        
-        <div className="row">
+
           <div className="scrollers col-lg-12 col-md-12 col-sm-12 col-xs-12">
 
             <button onClick={this.prevWatch} >
