@@ -69,7 +69,7 @@ button:focus, button:active {
 }
 
 .details {
-  margin: 16px;
+  /* margin: 16px; */
   padding: 8px;
 }
 
@@ -137,5 +137,10 @@ opacity: 0;
   .App {
     justify-content: space-between;
   }
+
+  .imgCurr img {
+    height: 60vmin;
+  }
+  
 
 }
