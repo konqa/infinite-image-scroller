@@ -1,7 +1,7 @@
 {
-  "name": "image-scroll",
+  "name": "infinite-image-scroller",
   "version": "0.1.0",
-  "homepage": "https://konqa.github.io/image-scroll",
+  "homepage": "https://konqa.github.io/infinite-image-scroller",
   "private": true,
   "dependencies": {
     "bootstrap": "^4.1.3",
