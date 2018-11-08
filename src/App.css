@@ -142,5 +142,13 @@ opacity: 0;
     height: 60vmin;
   }
   
+  button {
+    padding: 15px 20px;
+  }
+
+  .Arrow {
+    height: 20px;
+    width: 20px;
+  }
 
 }
